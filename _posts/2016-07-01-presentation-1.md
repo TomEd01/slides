@@ -6,9 +6,9 @@ slides:
  - title: Sensores Ópticos
    slide-data: |
      Tipos: <br>
-     - Fotodiodos  
-     - Fototransistores  
-     - Sensores de fibra óptica  
+     - Fotodiodos <br>
+     - Fototransistores <br>
+     - Sensores de fibra óptica <br>
      
      Funcionamiento: <br>
      Detectan luz y miden su variación.
@@ -16,8 +16,8 @@ slides:
  - title: Características de Sensores Ópticos
    slide-data: |
      Características: <br>
-     - Sensibilidad a la luz  
-     - Rango de detección  
+     - Sensibilidad a la luz <br>
+     - Rango de detección <br>
      
      Modo de comunicación: <br>
      Señales analógicas o digitales (I2C, SPI).
@@ -25,9 +25,9 @@ slides:
  - title: Sensores de Temperatura
    slide-data: |
      Tipos: <br>
-     - Termistores  
-     - Termopares  
-     - RTD  
+     - Termistores <br>
+     - Termopares <br>
+     - RTD <br>
      
      Funcionamiento: <br>
      Miden cambios de temperatura.
@@ -35,8 +35,8 @@ slides:
  - title: Características de Sensores de Temperatura
    slide-data: |
      Características: <br>
-     - Rango de temperatura  
-     - Precisión  
+     - Rango de temperatura <br>
+     - Precisión <br>
      
      Modo de comunicación: <br>
      Señal análoga o digital (I2C, SPI).
@@ -44,8 +44,8 @@ slides:
  - title: Sensores de Presión
    slide-data: |
      Tipos: <br>
-     - Piezoresistivos  
-     - Capacitivos  
+     - Piezoresistivos <br>
+     - Capacitivos <br>
      
      Funcionamiento: <br>
      Miden la presión mediante cambios eléctricos.
@@ -53,8 +53,8 @@ slides:
  - title: Características de Sensores de Presión
    slide-data: |
      Características: <br>
-     - Rango de presión  
-     - Precisión  
+     - Rango de presión <br>
+     - Precisión <br>
      
      Modo de comunicación: <br>
      Señal analógica o digital (I2C, SPI).
@@ -62,8 +62,8 @@ slides:
  - title: Sensores de Proximidad
    slide-data: |
      Tipos: <br>
-     - Inductivos  
-     - Ópticos  
+     - Inductivos <br>
+     - Ópticos <br>
      
      Funcionamiento: <br>
      Detectan objetos mediante campos eléctricos o luz.
@@ -71,8 +71,8 @@ slides:
  - title: Características de Sensores de Proximidad
    slide-data: |
      Características: <br>
-     - Distancia de detección  
-     - Precisión  
+     - Distancia de detección <br>
+     - Precisión <br>
      
      Modo de comunicación: <br>
      Salida digital discreta o protocolos como I2C, SPI.
@@ -80,7 +80,8 @@ slides:
 ---
 
 {% for slide in page.slides %}
-                    
-<section data-background="{% if slide.background %}{{slide.background}}{% else %}{{page.background}}{% endif %}"><h1>{{slide.title}}</h1><p>{{ slide.slide-data | newline_to_br }}</p></section>
-                    
+<section data-background="{% if slide.background %}{{slide.background}}{% else %}{{page.background}}{% endif %}">
+  <h1>{{slide.title}}</h1>
+  <p>{{ slide.slide-data | newline_to_br }}</p>
+</section>
 {% endfor %}
