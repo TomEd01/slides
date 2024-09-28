@@ -8,20 +8,16 @@ slides:
      Tipos: <br>
      - Fotodiodos  
      - Fototransistores  
-     - Células fotovoltaicas  
      - Sensores de fibra óptica  
-     - Sensores infrarrojos
      
      Funcionamiento: <br>
-     Detectan o emiten luz y miden su variación, reflexión o interrupción.
+     Detectan luz y miden su variación.
      
  - title: Características de Sensores Ópticos
    slide-data: |
      Características: <br>
      - Sensibilidad a la luz  
      - Rango de detección  
-     - Precisión  
-     - Resistencia a interferencias
      
      Modo de comunicación: <br>
      Señales analógicas o digitales (I2C, SPI).
@@ -31,39 +27,34 @@ slides:
      Tipos: <br>
      - Termistores  
      - Termopares  
-     - Sensores infrarrojos  
-     - RTD
+     - RTD  
      
      Funcionamiento: <br>
-     Detectan cambios de temperatura a través de variaciones en resistencia, voltaje o radiación infrarroja.
+     Miden cambios de temperatura.
 
  - title: Características de Sensores de Temperatura
    slide-data: |
      Características: <br>
      - Rango de temperatura  
      - Precisión  
-     - Tiempo de respuesta
      
      Modo de comunicación: <br>
-     Señal análoga o digital (I2C, SPI, 1-Wire).
+     Señal análoga o digital (I2C, SPI).
 
  - title: Sensores de Presión
    slide-data: |
      Tipos: <br>
      - Piezoresistivos  
      - Capacitivos  
-     - Piezoeléctricos  
-     - Manómetros
      
      Funcionamiento: <br>
-     Miden la presión a través de cambios en resistencia, capacitancia o generación de corriente eléctrica.
+     Miden la presión mediante cambios eléctricos.
 
  - title: Características de Sensores de Presión
    slide-data: |
      Características: <br>
      - Rango de presión  
      - Precisión  
-     - Linealidad
      
      Modo de comunicación: <br>
      Señal analógica o digital (I2C, SPI).
@@ -72,19 +63,16 @@ slides:
    slide-data: |
      Tipos: <br>
      - Inductivos  
-     - Capacitivos  
      - Ópticos  
-     - Ultrasónicos
      
      Funcionamiento: <br>
-     Detectan objetos mediante campos magnéticos, eléctricos, luz o sonido.
+     Detectan objetos mediante campos eléctricos o luz.
 
  - title: Características de Sensores de Proximidad
    slide-data: |
      Características: <br>
      - Distancia de detección  
      - Precisión  
-     - Detección de diferentes materiales
      
      Modo de comunicación: <br>
      Salida digital discreta o protocolos como I2C, SPI.
