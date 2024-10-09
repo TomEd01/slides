@@ -7,12 +7,10 @@ slides:
   - title: Sensores Ópticos
     slide-data: |
       1.1.1 Tipos: <br>
-      <ul>
-        <li>Fotodiodos/Fototransistores: Detectan la intensidad de la luz.</li>
-        <li>Células Fotovoltaicas: Generan energía a partir de la luz solar.</li>
-        <li>Sensores de Fibra Óptica: Utilizan cambios en la luz transmitida a través de fibras ópticas.</li>
-        <li>Sensores Infrarrojos (IR): Detectan radiación infrarroja para medir distancia o detectar objetos.</li>
-      </ul>
+      <p>-Fotodiodos/Fototransistores: Detectan la intensidad de la luz.</p>
+      <p>-Células Fotovoltaicas: Generan energía a partir de la luz solar.</p>
+      <p>-Sensores de Fibra Óptica: Utilizan cambios en la luz transmitida a través de fibras ópticas.</p>
+      <p>-Sensores Infrarrojos (IR): Detectan radiación infrarroja para medir distancia o detectar objetos.</p>
     background: "#e74c3c"
 
   - title: Sensores Ópticos (Cont.)
