@@ -1,4 +1,4 @@
-Demo: [http://webjeda.com/slides](http://webjeda.com/slides)
+Demo: [http://tomied/slides](https://tomed01.github.io/slides/)
 
 ## Installation
 * Fork the repository
