@@ -6,14 +6,23 @@ permalink: /presentation-2/
 
 ---
 <section>
-  <h1>Sensores Ópticos</h1>
-  <p>1.1.1 Tipos:</p>
+  <section>
+    <h1>Sensores Ópticos</h1>
+    <p>1.1.1 Tipos:</p><br>
+      <ol>
+        <li>Fotodiodos/Fototransistores: Detectan la intensidad de la luz.</li>
+        <li>Células Fotovoltaicas: Generan energía a partir de la luz solar.</li>
+      </ol>
+  </section>
+  <section>
+    <h1>Sensores Ópticos</h1>
+    <p>1.1.1 Tipos:</p><br>
     <ol>
-      <li>Fotodiodos/Fototransistores: Detectan la intensidad de la luz.</li>
-      <li>Células Fotovoltaicas: Generan energía a partir de la luz solar.</li>
-      <li>Sensores de Fibra Óptica: Utilizan cambios en la luz transmitida a través de fibras ópticas.</li>
-      <li>Sensores Infrarrojos (IR): Detectan radiación infrarroja para medir distancia o detectar objetos.</li>
+        <li>Sensores de Fibra Óptica: Utilizan cambios en la luz transmitida a través de fibras ópticas.</li>
+        <li>Sensores Infrarrojos (IR): Detectan radiación infrarroja para medir distancia o detectar objetos.</li>
     </ol>
+  </section>
+  
 </section>
 <!--
     background: "#e74c3c"
