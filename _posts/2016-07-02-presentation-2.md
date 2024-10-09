@@ -1,24 +1,27 @@
 ---
+
 title: Presentation 2
 layout: post
 permalink: /presentation-2/
 
-slides:
-  - title: Sensores Ópticos
-    slide-data: |
-      1.1.1 Tipos: <br>
-      -Fotodiodos/Fototransistores: Detectan la intensidad de la luz.
-      -Células Fotovoltaicas: Generan energía a partir de la luz solar.
-      -Sensores de Fibra Óptica: Utilizan cambios en la luz transmitida a través de fibras ópticas.
-      -Sensores Infrarrojos (IR): Detectan radiación infrarroja para medir distancia o detectar objetos.
+---
+<section>
+  <h1>Sensores Ópticos</h1>
+  <p>1.1.1 Tipos:</p>
+    <ol>
+      <li>Fotodiodos/Fototransistores: Detectan la intensidad de la luz.</li>
+      <li>Células Fotovoltaicas: Generan energía a partir de la luz solar.</li>
+      <li>Sensores de Fibra Óptica: Utilizan cambios en la luz transmitida a través de fibras ópticas.</li>
+      <li>Sensores Infrarrojos (IR): Detectan radiación infrarroja para medir distancia o detectar objetos.</li>
+    </ol>
+</section>
+<!--
     background: "#e74c3c"
-
-  - title: Sensores Ópticos (Cont.)
-    slide-data: |
+   title: Sensores Ópticos (Cont.)
+    slide-data
       1.1.2 Funcionamiento: <br>
       Emisión y recepción de luz para detectar cambios en el entorno. Se usa un haz de luz que puede interrumpirse o reflejarse por un objeto.
     background: "#e74c3c"
-
   - title: Sensores Ópticos (Cont.)
     slide-data: |
       1.1.3 Características: <br>
@@ -26,7 +29,6 @@ slides:
       - Respuesta rápida 
       - Sensibilidad a la luz ambiental o polvo
     background: "#e74c3c"
-
   - title: Sensores Ópticos (Cont.)
     slide-data: |
       1.1.4 Modo de comunicación: <br>
@@ -34,7 +36,6 @@ slides:
       - I2C 
       - SPI
     background: "#e74c3c"
-
   - title: Sensores de Temperatura
     slide-data: |
       1.2.1 Tipos: 
@@ -43,13 +44,11 @@ slides:
       - RTD 
       - Sensores IR
     background: '#f1c40f'
-
   - title: Sensores de Temperatura (Cont.)
     slide-data: |
       1.2.2 Funcionamiento: <br>
       Miden la temperatura mediante la variación de resistencia, voltaje o detección de radiación infrarroja.
     background: '#f1c40f'
-
   - title: Sensores de Temperatura (Cont.)
     slide-data: |
       1.2.3 Características: <br>
@@ -57,7 +56,6 @@ slides:
       - Amplio rango de medición 
       - Tamaño compacto
     background: '#f1c40f'
-
   - title: Sensores de Temperatura (Cont.)
     slide-data: |
       1.2.4 Modo de comunicación: <br>
@@ -66,7 +64,6 @@ slides:
       - SPI 
       - 1-Wire
     background: '#f1c40f'
-
   - title: Sensores de Presión
     slide-data: |
       1.3.1 Tipos: <br>
@@ -74,13 +71,11 @@ slides:
       - Capacitivos 
       - Resistivos
     background: '#9b59b6'
-
   - title: Sensores de Presión (Cont.)
     slide-data: |
       1.3.2 Funcionamiento: <br>
       Detectan la presión a través de la deformación de materiales que generan una señal eléctrica.
     background: '#9b59b6'
-
   - title: Sensores de Presión (Cont.)
     slide-data: |
       1.3.3 Características: <br>
@@ -88,7 +83,6 @@ slides:
       - Rango de presión amplio 
       - Robustos y resistentes
     background: '#9b59b6'
-
   - title: Sensores de Presión (Cont.)
     slide-data: |
       1.3.4 Modo de comunicación: <br>
@@ -97,7 +91,6 @@ slides:
       - SPI 
       - CAN bus
     background: '#9b59b6'
-
   - title: Sensores de Proximidad
     slide-data: |
       1.4.1 Tipos: <br>
@@ -106,13 +99,11 @@ slides:
       - Ultrasónicos 
       - Ópticos
     background: '#3498db'
-
   - title: Sensores de Proximidad (Cont.)
     slide-data: |
       1.4.2 Funcionamiento: <br>
       Detección de proximidad mediante cambios en campos electromagnéticos, capacitancia, ondas sonoras o luz.
     background: '#3498db'
-
   - title: Sensores de Proximidad (Cont.)
     slide-data: |
       1.4.3 Características: <br>
@@ -120,7 +111,6 @@ slides:
       - Rango de detección variable 
       - Resistencia a condiciones ambientales adversas (polvo, agua)
     background: '#3498db'
-
   - title: Sensores de Proximidad (Cont.)
     slide-data: |
       1.4.4 Modo de comunicación: <br>
@@ -128,7 +118,7 @@ slides:
       - Protocolos: I2C, SPI, RS-232, RS-485
     background: '#3498db'
 
----
+--->
 
 {% for slide in page.slides %}
                     
