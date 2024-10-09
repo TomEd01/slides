@@ -22,7 +22,10 @@ permalink: /presentation-2/
         <li>Sensores Infrarrojos (IR): Detectan radiación infrarroja para medir distancia o detectar objetos.</li>
     </ol>
   </section>
-  
+</section>
+<section>
+  <h1>Funcionamiento</h1>
+  <p>Los sensores ópticos funcionan captando o emitiendo luz y midiendo su variación, reflexión o interrupción. Pueden usar diferentes longitudes de onda<span class="fragment highlight-red">(visible, UV o infrarrojo)</span> y dependen del material y diseño para la conversión de la luz en una señal eléctrica.</p>
 </section>
 <!--
     background: "#e74c3c"
