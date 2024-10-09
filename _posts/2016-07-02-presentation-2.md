@@ -28,6 +28,16 @@ permalink: /presentation-2/
   <h2>Funcionamiento</h2>
   <p>Los sensores ópticos funcionan captando o emitiendo luz y midiendo su variación, reflexión o interrupción. Pueden usar diferentes longitudes de onda<span class="fragment highlight-red">(visible, UV o infrarrojo)</span> y dependen del material y diseño para la conversión de la luz en una señal eléctrica.</p>
 </section>
+<section>
+  <p>1.1.3</p><br>
+  <h2>Caracteriaticas</h2>
+  <ol>
+    <li clas="fragment">Sensibilidad a la luz</li>
+    <li>Rango de detección <span class="fragment highlight-red">(distancia, intensidad).</span></li>
+    <li>Precisión y tiempo de respuesta.</li>
+    <li>Resistencia a interferencias ambientales <span class="fragment highlight-red">(polvo, humedad).</span></li>
+  </ol>
+</section>
 <!--
     background: "#e74c3c"
    title: Sensores Ópticos (Cont.)
