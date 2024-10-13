@@ -44,7 +44,7 @@ permalink: /presentation-2/
   <p>Señales análogas <span class="fragment highlight-red">(variación de voltaje o corriente)</span>. Digital mediante protocolos como I2C o SPI para transmisión de datos.</p>
 </section>
 <section>
-  <section data-background="{{site.baseurl}}/temperatura.jpg">
+  <section data-background="{{site.baseurl}}/_posts/temperatura.jpg">
     <p>1.2</p>
     <h2>Sensores de Temperatura</h2>
   </section>
