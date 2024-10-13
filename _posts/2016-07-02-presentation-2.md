@@ -59,6 +59,11 @@ permalink: /presentation-2/
     </ol>
   </section>
 </section>
+<section>
+  <p>1.2.2.</p>
+  <h2>Funcionamiento</h2>
+  <p>Cada tipo de sensor de temperatura opera midiendo cambios físicos o eléctricos debidos a la temperatura. Los termistores y RTD cambian su resistencia eléctrica; los termopares generan una diferencia de potencial,   mientras que los sensores IR miden la radiación emitida por un objeto.</p>
+</section>
 
 
 {% for slide in page.slides %}
