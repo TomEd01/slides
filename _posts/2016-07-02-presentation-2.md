@@ -43,6 +43,22 @@ permalink: /presentation-2/
   <h2>Modo de Comunicación</h2>
   <p>Señales análogas <span class="fragment highlight-red">(variación de voltaje o corriente)</span>. Digital mediante protocolos como I2C o SPI para transmisión de datos.</p>
 </section>
+<section>
+  <section data-background="{{site.baseurl}}/temperatura.jpg">
+    <p>1.2</p>
+    <h2>Sensores de Temperatura</h2>
+  </section>
+  <section>
+    <p>1.2.1</p>
+    <h2>Tipos</h2>    
+    <ol>
+      <li>Termistores: Cambian su resistencia con la temperatura <span class="fragment highlight-red">(NTC y PTC)</span>.</li>
+      <li>Termopares: Generan voltaje dependiendo de la diferencia de temperatura entre dos metales.</li>
+      <li>Sensores de Infrarrojos: Detectan la temperatura de objetos basándose en la radiación infrarroja.</li>
+      <li>RTD <span class="fragment highlight-red">(Resistance Temperature Detector)</span>: Miden temperatura a través de un cambio en la resistencia de un material metálico <span class="fragment highlight-red">(como el platino)</span>.</li>
+    </ol>
+  </section>
+</section>
 
 
 {% for slide in page.slides %}
