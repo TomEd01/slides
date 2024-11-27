@@ -84,6 +84,42 @@ permalink: /presentation-2/
     </ol>
   </section>
 </section>
+<section>
+  <section><h2>1.3 Sensores de Presión</h2></section>
+  <section>
+    <p>1.3.1.</p>
+    <h2>Tipos</h2>
+    <ol>
+      <li>Piezoresistivos: Cambian su resistencia al aplicarse presión.</li>
+      <li>Capacitivos: Detectan cambios en la capacitancia entre dos superficies cuando la presión varía.</li>
+      <li>Piezoeléctricos: Producen una corriente eléctrica en respuesta a una presión mecánica.</li>
+      <li>Manómetros: Utilizan un tubo o membrana flexible para medir la presión.</li>
+    </ol>
+  </section>
+  <section>
+    <p>1.3.2</p>
+    <h2>Funcionamiento</h2>
+    <p>Los sensores de presión miden la fuerza aplicada a un área. Pueden basarse en la deformación de materiales (piezoresistivos y capacitivos) o en la generación de cargas eléctricas (piezoeléctricos). Las variaciones de presión alteran las propiedades eléctricas del sensor, generando una señal que puede medirse.</p>
+  </section>
+  <section>
+    <p>1.3.3</p>
+    <h2>Caracteristica</h2>
+    <ol>
+      <li>Rango de presión (desde presiones bajas hasta extremadamente altas).</li>
+      <li>Precisión y sensibilidad</li>
+      <li>Linealidad y estabilidad de la señal a lo largo del tiempo.</li>
+      <li>Resistencia a entornos agresivos (altas temperaturas, humedad).</li>
+    </ol>
+  </section>
+  <section>
+    <p>1.3.4</p>
+    <h2>Modo de Comunicación</h2>
+    <ol>
+      <li>Rango de presión <span class="fragment highlight-red">(desde presiones bajas hasta extremadamente altas).Analógico (voltaje o corriente proporcional a la presión)</span>.</li>
+      <li>Digital <span class="fragment highlight-red">(I2C, SPI, interfaces de bus industrial)</span>.</li>
+    </ol>
+  </section>
+</section>
 
 
 {% for slide in page.slides %}
