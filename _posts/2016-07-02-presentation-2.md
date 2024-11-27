@@ -60,9 +60,29 @@ permalink: /presentation-2/
   </section>
 </section>
 <section>
-  <p>1.2.2.</p>
-  <h2>Funcionamiento</h2>
-  <p>Cada tipo de sensor de temperatura opera midiendo cambios físicos o eléctricos debidos a la temperatura. Los termistores y RTD cambian su resistencia eléctrica; los termopares generan una diferencia de potencial,   mientras que los sensores IR miden la radiación emitida por un objeto.</p>
+  <section>
+    <p>1.2.2.</p>
+    <h2>Funcionamiento</h2>
+    <p>Cada tipo de sensor de temperatura opera midiendo cambios físicos o eléctricos debidos a la temperatura. Los termistores y RTD cambian su resistencia eléctrica; los termopares generan una diferencia de potencial, mientras que los sensores IR miden la radiación emitida por un objeto.</p>
+  </section>
+  <section>
+    <p>1.2.3</p>
+    <h2>Caracteristicas</h2>
+    <ol>
+      <li>Rango de temperatura.</li>
+      <li>Precisión y estabilidad a largo plazo.</li>
+      <li>Sensibilidad <span class="fragment highlight-red">(cómo responden a pequeños cambios de temperatura)</span>.</li>
+      <li>Tiempo de respuesta <span class="fragment highlight-red">(cuán rápido detectan cambios de temperatura)</span>.</li>
+    </ol>
+  </section>
+  <section>
+    <p>1.2.4</p>
+    <h2>Modo de Comunicación</h2>
+    <ol>
+      <li>Señal análoga: Generalmente a través de una variación de voltaje o resistencia.</li>
+      <li>Señal digital: Utilizando I2C, SPI, o 1-Wire.</li>
+    </ol>
+  </section>
 </section>
 
 
