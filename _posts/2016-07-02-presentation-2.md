@@ -120,6 +120,39 @@ permalink: /presentation-2/
     </ol>
   </section>
 </section>
+<section>
+  <section><h2>1.4 Sensores de Proximidad</h2></section>
+  <section>
+    <p>1.4.1</p>
+    <h2>Tipos</h2>
+    <ol>
+      <li>Inductivos: Detectan objetos metálicos mediante la alteración de un campo magnético.</li>
+      <li>Capacitivos: Miden la variación en un campo eléctrico, detectando materiales conductores y no conductores.</li>
+      <li>Ópticos: Emplean luz para detectar objetos mediante reflexión.</li>
+      <li>Ultrasónicos: Emite ondas de sonido de alta frecuencia y mide el eco reflejado por un objeto.</li>
+    </ol>
+  </section>
+  <section>
+    <p>1.4.2</p>
+    <h2>Funcionamiento</h2>
+    <p>Cada tipo de sensor de proximidad detecta la presencia o cercanía de un objeto de manera distinta. Los inductivos responden a objetos metálicos, los capacitivos a variaciones en capacitancia, los ópticos a la reflexión de luz, y los ultrasónicos al tiempo que tarda un pulso de sonido en regresar al sensor.</p>
+  </section>
+  <section>
+    <p>1.4.3</p>
+    <h2>Caracteristica</h2>
+    <ol>
+      <li>Distancia máxima de detección.</li>
+      <li>Precisión y resolución.</li>
+      <li>Capacidad de detección de diferentes materiales.</li>
+      <li>Resistencia a interferencias externas como el polvo o la humedad.</li>
+    </ol>
+  </section>
+  <section>
+    <p>1.4.4</p>
+    <h2>Modo de comunicación</h2>
+    <p>Salida digital discreta <span class="fragment highlight-red">(alta o baja, para indicar presencia)</span>. Protocolos de comunicación como I2C, SPI en versiones más avanzadas o complejas.</p>
+  </section>
+</section>
 
 
 {% for slide in page.slides %}
